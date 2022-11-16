@@ -1,0 +1,14 @@
+.navbar__wrapper h3 {
+  margin: 16px;
+}
+
+.navbar__logo {
+  text-decoration: none;
+  color: white;
+  transition: all 0.25s ease-in-out;
+}
+
+.navbar__logo:hover {
+  color: #03e9f4;
+  font-size: 19px;
+}

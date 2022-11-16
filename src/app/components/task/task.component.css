@@ -1,0 +1,33 @@
+.remove-btn, .show-btn {
+  background-color: #333a33;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: .5s;
+  margin: 0 5px;
+  letter-spacing: 4px;
+  float: right;
+}
+
+.remove-btn:hover, .show-btn:hover {
+  background: #03e9f4;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+.task {
+  width: 600px;
+  margin: 20px auto;
+  border: dashed 1px #333a33;
+}

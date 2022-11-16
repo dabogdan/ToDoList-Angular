@@ -1,0 +1,18 @@
+<div class="task">
+  <div class="task__wrapper">
+    <div class="task__buttons">
+      <a (click)="task.hide = !task.hide" class="show-btn">
+        {{ task.hide ? 'Show' : 'Hide'}}
+      </a>
+      <a (click)="removeTask(task)" class="remove-btn">
+        Remove
+      </a>
+    </div>
+    <div class="task__header">
+      <h2>{{ task.title }}</h2>
+    </div>
+    <div class="task__body" [hidden]="task.hide">
+      <p>{{ task.description }}</p>
+  </div>
+  </div>
+</div>
